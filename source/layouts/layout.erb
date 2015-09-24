@@ -22,8 +22,10 @@
     <%= stylesheet_link_tag "dist/all" %>
   </head>
 
-  <body class="<%= page_classes %>">
-    hiiii
+  <body class="application<%= page_classes %>">
+
+    <%= partial "components/logo" %>
+
     <aside>
       <h2>Recent Articles</h2>
       <ol>

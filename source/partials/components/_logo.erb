@@ -1,1 +1,12 @@
-LOGO
+<section class="logo" itemscope itemtype="http://schema.org/Organization">
+  <div class="logo__inner">
+    <a class="logo__link" href="/" itemprop="url">
+      <img class="logo__image" src="/media/images/brand/logo.svg" itemprop="logo" />
+    </a>
+    <% if current_page.url == '/repeat/' %>
+      <h1 class="logo__heading">hack.rest/repeat</h1>
+    <% else %>
+      <span class="logo__heading">hack.rest/repeat</span>
+    <% end %>
+  </div>
+</section>
