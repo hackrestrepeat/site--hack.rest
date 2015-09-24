@@ -1,0 +1,21 @@
+{
+  "name": "hack.rest",
+  "version": "1.0.0",
+  "authors": [
+    "Matthew White <matt@substructu.re>",
+    "Stacey Douglas <staceyjdouglas@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "~4.2.5",
+    "jquery": "~2.1.4",
+    "neat": "~1.7.2"
+  }
+}

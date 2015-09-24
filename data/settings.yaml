@@ -1,0 +1,13 @@
+fonts:
+  - name: 'Open Sans'
+    source: 'Google'
+    keys:
+  - name: 'museo-slab'
+    source: 'Typekit'
+    keys: 
+      - 'giz0cjy'
+  - name: "'Gotham Cond SSm A', 'Gotham Cond SSm B'"
+    source: 'Cloud.typography'
+    keys: 
+      - '6991832'
+      - '771588'
