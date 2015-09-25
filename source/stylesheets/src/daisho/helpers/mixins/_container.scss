@@ -1,0 +1,15 @@
+@mixin x-container() {
+  @include position(relative, null null null null);
+  @include outer-container($width-palm-max);
+  @include size($width-palm);
+
+  @include media($mq-lap) {
+    @include outer-container($width-lap-max);
+    @include size($width-lap);
+  }
+
+  @include media($mq-desk) {
+    @include outer-container($width-desk-max);
+    @include size($width-desk);
+  }
+}
