@@ -1,0 +1,13 @@
+{
+  "name": "daisho",
+  "homepage": "https://github.com/coldandgoji/daisho",
+  "_release": "ad7f7bb993",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "ad7f7bb9930ed159ffd090d04632a3effa105ed7"
+  },
+  "_source": "https://github.com/coldandgoji/daisho.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/coldandgoji/daisho.git"
+}
