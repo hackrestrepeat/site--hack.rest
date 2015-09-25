@@ -1,0 +1,17 @@
+.logo {
+
+  .logo__inner {
+
+  }
+
+  .logo__heading {
+    font-family: 'gotham-rounded-light';
+    font-size: em(36);
+    color: $color-orange;
+
+    em {
+      font-family: 'gotham-rounded-bold';
+    }
+  }
+}
+

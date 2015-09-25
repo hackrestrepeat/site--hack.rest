@@ -10,6 +10,8 @@
 
 @import "../src/fonts";
 
+@import "../src/components/logo";
+
 .application {
   @include x-background(#f6f6f6);
 }
