@@ -1,0 +1,16 @@
+<% modifier ||= '' %>
+<% heading ||= "" %>
+<% heading_level ||= "h2" %>
+<% copy ||= "" %>
+<% cta_link ||= "" %>
+<% cta_copy ||= "" %>
+
+<section class="collection  <% if !modifier.empty? %> collection--<%= modifier %><% end %>">
+  <div class="collection__inner">
+    <div class="collection__content">
+      <<%= heading_level %> class="collection__heading"><%= heading %></<%= heading_level %>>
+      <div class="collection__copy"><%= copy %></div>
+      <a class="collection__cta" href="<%= cta_link %>"><%= cta_copy %></a>
+    </div>
+    <ul class="collection__list">
+      <div class="collection__row">
