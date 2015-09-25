@@ -1,5 +1,6 @@
 ---
 title: First Article!
+author: matt
 date: 2015-07-17 05:00 UTC
 tags: first, middleman, scss
 ---

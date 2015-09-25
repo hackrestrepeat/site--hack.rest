@@ -1,5 +1,6 @@
 ---
 title: Example Article
+author: stacey
 date: 2012-01-01
 tags: example, test
 ---

@@ -1,5 +1,6 @@
 ---
 title: New Blog Post
+author: matt
 date: 2015-07-20 08:53 UTC
 tags: middleman, ruby, test
 ---

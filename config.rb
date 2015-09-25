@@ -38,6 +38,13 @@ after_configuration do
 end
 
 ###
+# Helpers
+###
+
+require "helpers/blog_helpers" 
+helpers BlogHelpers
+
+###
 # Extensions
 ###
 

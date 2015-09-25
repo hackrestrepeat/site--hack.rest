@@ -22,6 +22,7 @@ per_page: 10
         :locals => {
           :modifier => "listing",
           :heading => article.title,
+          :author => get_author(article.data.author).name,
           :link => article.url,
           :copy => article.summary(400),
           :date => article.date,

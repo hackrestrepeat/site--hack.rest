@@ -1,0 +1,12 @@
+- stacey:
+  name: Stacey Douglas
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur diam dolor, ac rutrum elit ornare a. Pellentesque sed tortor sollicitudin, ornare est et, venenatis dolor."
+  twitter: "@_staceyjayne"
+  instagram: instagram
+  github: github
+- matt:
+  name: Matthew White
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur diam dolor, ac rutrum elit ornare a. Pellentesque sed tortor sollicitudin, ornare est et, venenatis dolor."
+  twitter: "@kaishir0"
+  instagram: instagram
+  github: github
