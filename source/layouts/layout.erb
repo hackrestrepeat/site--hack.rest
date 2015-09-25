@@ -16,13 +16,9 @@
     <!-- Javascripts -->
     <%= partial "head/js" %>
 
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "The Middleman" %></title>
-
-    <%= stylesheet_link_tag "dist/all" %>
   </head>
 
-  <body class="application<%= page_classes %>">
+  <body class="application <%= page_classes %>">
 
     <%= partial "components/logo" %>
 
