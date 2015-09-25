@@ -6,10 +6,12 @@
 
 @import "../../dependencies/neat/app/assets/stylesheets/neat";
 
-// @import "../../dependencies/daisho/daisho";
+@import "../../dependencies/daisho/daisho";
+
+@import "../src/fonts";
+
+.application {
+  @include x-background(#f6f6f6);
+}
 
 @import "../src/shame";
-
-html {
-  @include margin(10px);
-}
