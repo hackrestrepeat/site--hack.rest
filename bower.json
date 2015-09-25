@@ -16,6 +16,7 @@
   "dependencies": {
     "bourbon": "~4.2.5",
     "jquery": "~2.1.4",
-    "neat": "~1.7.2"
+    "neat": "~1.7.2",
+    "daisho": "https://github.com/coldandgoji/daisho.git"
   }
 }
