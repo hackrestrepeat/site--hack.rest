@@ -1,0 +1,64 @@
+.article--listing {
+  @include x-background($color-text-invert);
+
+  font-family: 'gotham-rounded-light';
+  font-size: em(18);
+  color: $color-theme-primary;
+  border-radius: 3px;
+
+  .article__header {
+    @include x-background($color-theme-primary);
+    border-radius: 3px 3px 0 0;
+  }
+  .article__heading {
+    @include padding(0.8em 1.9em);
+    color: $color-text-invert;
+    &:before {
+      font-family: 'gotham-rounded-bold';
+      content: '/';
+      opacity: 0.2;
+      display: inline-block;
+      @include margin(null 0.6em null null);
+    }
+  }
+  .article__body {
+    @include padding(1.6em 2.2em);
+    color: $color-text;
+  }
+  .article__footer {
+    @include padding(null 2.2em 1.6em 2.2em);
+    @include row;
+  }
+  .article__meta {
+    font-size: em(14);
+  }
+  .article__tags {
+    font-size: em(12);
+    font-family: 'gotham-rounded-bold';
+    text-transform: uppercase;
+  }
+  @include media($mq-lap) {
+    .article__footer {
+    }
+    .article__meta {
+      @include span-columns(12 of 24);
+      font-family: 'gotham-rounded-light-italic';
+    }
+    .article__tags {
+      @include span-columns(12 of 24);
+      text-align: right;
+    }
+    .article__tag {
+      display: inline-block;
+      &:not(:last-child):after {
+        content: ',';
+        display: inline-block;
+        margin-right: 0.3em;
+      }
+    }
+    .article__tag-link {
+    }
+  }
+  @include media($mq-desk) {
+  }
+}

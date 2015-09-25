@@ -11,7 +11,10 @@ $color-grey-light: #f6f6f6;
 $color-text: $color-grey-dark;
 $color-text-invert: $color-white;
 $color-text-link: $color-orange;
-$color-text-link-hover: darken($color-orange, 10%);;
+$color-text-link-hover: darken($color-orange, 10%);
+
+// Colors | Theme
+$color-theme-primary: $color-orange;
 
 // Ergonomics based widths
 $width-wrist-max: 100%;
@@ -23,7 +26,7 @@ $width-lap-mq: em(750);
 $width-lap-max: 95%;
 $width-desk: 95%;
 $width-desk-mq: em(1000);
-$width-desk-max: em(750);
+$width-desk-max: em(1000);
 $width-wall: 95%;
 $width-wall-mq: em(1200);
 $width-wall-max: em(1500);

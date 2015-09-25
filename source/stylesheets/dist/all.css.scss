@@ -10,10 +10,19 @@
 
 @import "../src/fonts";
 
+// Components 
+
+@import "../src/components/collection";
+
 @import "../src/components/logo";
+
+@import "../src/components/article-summary";
 
 .application {
   @include x-background(#f6f6f6);
+  font-family: 'gotham-rounded-light';
+  //font-size: 18px;
+  line-height: 1.5;
 }
 
 @import "../src/shame";

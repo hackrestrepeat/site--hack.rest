@@ -1,0 +1,10 @@
+.collection--posts {
+  .collection__inner {
+    @include x-container;
+  }
+  .collection__item {
+    &:not(:last-child) {
+      @include margin(null null 2em null);
+    }
+  }
+}
