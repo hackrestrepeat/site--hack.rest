@@ -18,8 +18,4 @@ module SiteHelpers
     return title
   end
 
-  def markdown(source)
-    Tilt::KramdownTemplate.new { source }.render
-  end
-
 end
