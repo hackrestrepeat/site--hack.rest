@@ -1,68 +1,17 @@
 // Colors | Descriptive
 $color-black: #000000;
-$color-white: #FFFFFF;
-$color-grey: #999999;
-$color-red: #9A1A00;
-$color-yellowSunglow: #CFB036;
-$color-blueLake: #476a88;
-
-// Colors | Theme
-$color-theme-primary: $color-yellowSunglow;
-$color-theme-secondary: $color-yellowSunglow;
+$color-white: #fff;
+$color-orange: #e6886e;
+$color-orange-light: #ea9d88;
+$color-grey-dark: #7a7a7a;
+$color-grey: #b8b8b8;
+$color-grey-light: #f6f6f6;
 
 // Colors | Semantic
-$color-text: $color-grey;
+$color-text: $color-grey-dark;
 $color-text-invert: $color-white;
-$color-text-hilite: $color-theme-primary;
-$color-text-link: $color-theme-primary;
-$color-text-link-hover: darken($color-theme-primary, 10%);;
-
-$color-site-background: $color-white;
-$color-header-background: transparent;
-$color-main-background: $color-white;
-$color-search-background: $color-white;
-$color-footer-background: $color-white;
-
-$color-toggle-navigation: $color-white;
-$color-toggle-navigation-hover: $color-theme-primary;
-$color-toggle-navigation-active: $color-theme-primary;
-
-$color-toggle-search: $color-white;
-$color-toggle-search-hover: $color-theme-primary;
-$color-toggle-search-active: $color-theme-primary;
-
-// Navigation
-  //  Palm
-  $color-navigation-background-palm: $color-grey;
-  $color-navigation-item-background-palm: $color-grey;
-  $color-navigation-text-palm: $color-white;
-
-  //  Lap
-  $color-navigation-background-lap: $color-grey;
-  $color-navigation-item-background-lap: $color-grey;
-  $color-navigation-item-background-hover-lap: $color-grey;
-  $color-navigation-text-lap: $color-white;
-  $color-navigation-text-hover-lap: $color-theme-primary;
-
-  //  Desk
-  $color-navigation-background-desk: $color-grey;
-  $color-navigation-item-background-desk: $color-grey;
-  $color-navigation-item-background-hover-desk: $color-grey;
-  $color-navigation-text-desk: $color-white;
-  $color-navigation-text-hover-desk: $color-theme-primary;
-
-// Menu: Social
-  //  Palm
-  $color-menu-social-icon-palm: $color-white;
-
-  //  Lap
-  $color-menu-social-icon-lap: $color-white;
-  $color-menu-social-icon-hover-lap: $color-theme-primary;
-
-  //  Desk
-  $color-menu-social-icon-desk: $color-white;
-  $color-menu-social-icon-hover-desk: $color-theme-primary;
-
+$color-text-link: $color-orange;
+$color-text-link-hover: darken($color-orange, 10%);;
 
 // Ergonomics based widths
 $width-wrist-max: 100%;
@@ -84,8 +33,6 @@ $height-header-palm: em(56);
 $height-header-lap: em(56);
 $height-header-desk: em(56);
 
-$height-search-palm: em(40);
-
 $width-navigation: em(270);
 
 // Breakpoints for Neat's media() mixin
@@ -101,12 +48,9 @@ $mq-desk-only: new-breakpoint(min-width $width-desk-mq max-width $width-wall-mq 
 $mq-desk-down: new-breakpoint(max-width $width-wall-mq 24);
 $mq-wall: new-breakpoint(min-width $width-wall-mq 12);
 
-
-
 // Variables | Font Families
 
-$font-family-sans-serif: 'Open Sans', Arial;
-$font-family-serif: 'Times New Roman', serif;
+$font-family-gotham-rounded: 'gotham-rounded', Arial;
 
 // Variables | Font Weights
 $font-weight-light: 300;
@@ -213,106 +157,3 @@ $base-font-size:1em;
 $base-font-size-px-mobile:15px;
 $base-font-size-px-tablet:15px;
 $base-font-size-px-desktop:15px;
-
-$typography-h1: (
-  font-family: $font-family-sans-serif,
-  font-weight: $font-weight-bold,
-  font-size-palm: 24px,
-  font-size-lap: 36px,
-  font-size-desk: 57px,
-  line-height: 1.25,
-  color: $color-black,
-  color-inverted: $color-white,
-  text-transform: none,
-  text-decoration: none
-);
-
-$typography-h2: (
-  font-family: $font-family-sans-serif,
-  font-weight: $font-weight-bold,
-  font-size-palm: 22px,
-  font-size-lap: 32px,
-  font-size-desk: 35px,
-  line-height: 1.25,
-  color: $color-black,
-  color-inverted: $color-text-invert,
-  text-transform: none,
-  text-decoration: none,
-  margin-bottom: .5em
-);
-
-$typography-h3: (
-  font-family: $font-family-sans-serif,
-  font-weight: $font-weight-bold,
-  font-size-palm: 30px,
-  font-size-lap: 30px,
-  font-size-desk: 30px,
-  line-height: 1.25,
-  color: $color-black,
-  color-inverted: $color-white,
-  text-transform: none,
-  text-decoration: none
-);
-
-$typography-h4: (
-  font-family: $font-family-sans-serif,
-  font-weight: $font-weight-bold,
-  font-size-palm: 18px,
-  font-size-lap: 18px,
-  font-size-desk: 18px,
-  line-height: 1.25,
-  color: $color-black,
-  color-inverted: $color-text-invert,
-  text-transform: none,
-  text-decoration: none
-);
-
-$typography-h5: (
-  font-family: $font-family-sans-serif,
-  font-weight: $font-weight-book,
-  font-size-palm: 16px,
-  font-size-lap: 16px,
-  font-size-desk: 16px,
-  line-height: 1.25,
-  color: $color-black,
-  color-inverted: $color-white,
-  text-transform: none,
-  text-decoration: none
-);
-
-$typography-p: (
-  font-family: $font-family-sans-serif,
-  font-weight: $font-weight-book,
-  font-size: 15px,
-  line-height: 2,
-  color: $color-black,
-  color-inverted: $color-white,
-  text-transform: none,
-  text-decoration: none
-);
-
-$typography-hr: (
-  full-width: true,
-  height: 1em,
-  color: $color-black
-);
-
-$button: (
-  color-text: $color-black,
-  color-text-hover: $color-white,
-  color-background: transparent,
-  color-background-hover: $color-black,
-  color-border: $color-black,
-  color-border-hover: $color-black,
-  border-width: 1px
-);
-
-$button-alt: (
-  color-text: $color-white,
-  color-text-hover: $color-black,
-  color-background: $color-black,
-  color-background-hover: $color-white,
-  color-border: $color-white,
-  color-border-hover: $color-white,
-  border-width: 1px
-);
