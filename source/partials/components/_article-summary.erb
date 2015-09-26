@@ -8,15 +8,15 @@
 
 <article class="article <% if !modifier.empty? %> article--<%= modifier %><% end %>" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="article__inner">
-    <hgroup class="article__header">
+    <header class="article__header">
       <a href="<%= link %>" class="article__link" itemprop="discussionUrl"><h1 class="article__heading" itemprop="headline"><%= heading %></h1></a>
-    </hgroup>
+    </header>
     <div class="article__body">
       <div class="article__copy" itemprop="about">
         <%= copy %>
       </div>
     </div>
-    <div class="article__footer">
+    <footer class="article__footer">
       <div class="article__meta">
         <a href="" class="article__author" rel="author" itemprop="author"><%= author %></a> /
         <time class="article__timestamp" itemprop="datePublished"><%= date.strftime('%d %B %Y') %></time>
@@ -26,6 +26,6 @@
           <li class="article__tag" itemprop="keywords"><a class="article__tag-link" href="<%= tag_path(tag) %>"><%= tag %></a></li>
         <% end %>
       </ul>
-    </div>
+    </footer>
   </div>
 </article>
