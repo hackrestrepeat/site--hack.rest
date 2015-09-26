@@ -32,6 +32,9 @@
   .article__meta {
     font-size: em(14);
   }
+  .article__timestamp {
+    color: $color-grey;
+  }
   .article__tags {
     font-size: em(12);
     font-family: 'gotham-rounded-bold';
